@@ -9,6 +9,7 @@ ul.nav, .jumbotron h1{
 .jumbotron {
 	text-align: center;
 	background-image: url('../hero-image.jpg');
+	margin-bottom: 0px;
 }
 
 ul.nav {
@@ -97,6 +98,7 @@ footer{
 }
 
 #who-we-are{
+	margin-top: 30px;
 	padding-top: 0px;
 }
 
