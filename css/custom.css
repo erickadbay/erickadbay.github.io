@@ -1,0 +1,101 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+}
+
+ul.nav, .jumbotron h1{
+	font-family: 'Arvo', serif;
+}
+.jumbotron {
+	text-align: center;
+	background-image: url('../hero-image.jpg');
+}
+
+ul.nav {
+	font-size: 13px;
+}
+
+.jumbotron h1{
+	margin-top: 0px;
+	margin-bottom: 50px;
+	color:white;
+}
+
+.jumbotron p{
+	margin-bottom: 30px;
+	color:white;
+	font-weight: 100;
+}
+
+.btn-lg{
+	font-size: 24px;
+}
+
+.navbar-header{
+	padding-top: 15px;
+}
+
+.col-md-4{
+	padding: 10px 40px 0px 40px;
+}
+
+.homepage {
+	padding-top: 30px;
+	text-align: center;
+	font-family: 'Arvo', serif;
+	padding-bottom: 30px;
+}
+
+.homepage h2, .homepage h3{
+	color:#e74c3c;
+	text-transform: uppercase;
+}
+
+.homepahe h2{
+	font-size: 30px;
+}
+.homepage h3{
+	font-size: 26px;
+}
+
+.btn-default{
+	color:#e74c3c;
+}
+
+.homepage hr{
+	border-color: #e74c3c;
+	width: 160px;
+	margin-bottom: 30px;
+}
+
+.homepage p{
+	font-size: 21px;
+	font-weight: 300;
+}
+
+.homepage a{
+	color:#e74c3c; 
+}
+
+.homepage a:hover{
+	color:#e74c3c;
+	text-decoration: none;
+	opacity: 0.8;
+}
+
+#get-involved {
+	background-color: #f5f5f5;
+}
+
+footer{
+	background-color: #e74c3c;
+	font-family: 'Arvo', serif;
+	color: white;
+	padding-top: 40px;
+ 	padding-bottom: 20px;
+  	padding-left: 30px;
+}
+
+
+
+
