@@ -101,4 +101,14 @@ footer{
 	padding-top: 0px;
 }
 
+#go-to-top-btn a{
+	background-color: #e74c3c;
+	border-color: #e74c3c;
+	padding-left: 80px;
+}
 
+#go-to-top-btn a:hover{
+	background-color: #e74c3c;
+	opacity: 1;
+	border-color: #e74c3c;
+}
