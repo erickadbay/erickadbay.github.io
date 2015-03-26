@@ -4,7 +4,7 @@ body {
 }
 
 ul.nav, .jumbotron h1{
-	font-family: 'Arvo', serif;
+	font-family: 'Arvo', courier, serif;
 }
 .jumbotron {
 	text-align: center;
@@ -32,18 +32,13 @@ ul.nav {
 	font-size: 24px;
 }
 
-.navbar-header{
-	padding-top: 15px;
-}
-
 .col-md-4{
-	padding: 10px 40px 0px 40px;
+	padding: 10px 20px 0px 20px;
 }
 
 .homepage {
 	padding-top: 30px;
 	text-align: center;
-	font-family: 'Arvo', serif;
 	padding-bottom: 30px;
 }
 
@@ -71,7 +66,7 @@ ul.nav {
 
 .homepage p{
 	font-size: 21px;
-	font-weight: 300;
+	font-weight: 200;
 }
 
 .homepage a{
@@ -112,3 +107,41 @@ footer{
 	opacity: 1;
 	border-color: #e74c3c;
 }
+
+@media screen and (max-width: 991px) {
+    
+    .col-md-10 img{
+    	position: relative;
+  		left: -40px;
+    }
+
+    #go-to-top-btn{
+    	position: relative;
+  		left: 600px;
+  		bottom: 50px;
+    }
+
+    footer{
+    	padding-bottom: 0px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+	.navbar-header img{
+		padding-left: 20px;
+	}
+	.col-md-10 img{
+    	position: relative;
+  		left: 40px;
+  		width: 50%;
+    }
+
+
+
+
+
+
+}
+
+
