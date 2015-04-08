@@ -70,7 +70,7 @@ ul.nav {
 }
 
 .homepage a{
-	color:#e74c3c; 
+	color:#e74c3c;
 }
 
 .homepage a:hover{
@@ -83,7 +83,7 @@ ul.nav {
 	background-color: #f5f5f5;
 }
 
-#get-involved h2{
+#get-involved h2, h3{
 	font-family: 'Arvo', courier, serif;
 }
 
@@ -117,7 +117,7 @@ footer{
 }
 
 @media screen and (max-width: 991px) {
-    
+
     .col-md-10 img{
     	position: relative;
   		left: -40px;
@@ -137,19 +137,14 @@ footer{
 @media screen and (max-width: 767px) {
 
 	.navbar-header img{
-		padding-left: 20px;
+		padding-left: 0px;
 	}
 	.col-md-10 img{
     	position: relative;
-  		left: 40px;
-  		width: 50%;
+  		left: 0px;
+  		top: 10px;
+  		width: 80%;
     }
 
 
-
-
-
-
 }
-
-
