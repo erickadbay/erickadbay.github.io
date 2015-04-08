@@ -83,6 +83,10 @@ ul.nav {
 	background-color: #f5f5f5;
 }
 
+#get-involved h2{
+	font-family: 'Arvo', courier, serif;
+}
+
 footer{
 	background-color: #e74c3c;
 	font-family: 'Arvo', serif;
@@ -94,6 +98,10 @@ footer{
 
 #who-we-are{
 	padding-top: 0px;
+}
+
+#who-we-are h2{
+	font-family: 'Arvo', courier, serif;
 }
 
 #go-to-top-btn a{
