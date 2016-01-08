@@ -1,19 +1,26 @@
 /* Move down content because we have a fixed navbar that is 50px tall */
+html, body{
+  height:100%;
+  background-color: #f5f5f5;
+  width:100%;
+}
+
 body {
   padding-top: 50px;
 }
 
 ul.nav, .jumbotron h1{
-	font-family: 'Arvo', courier, serif;
+	font-family: 'Arvo', courier, sans-serif;
 }
 .jumbotron {
 	text-align: center;
-	background-image: url('../hero-image.jpg');
+	/*background-image: url('../assets/meinspain_wtext2.jpg');*/
 	margin-bottom: 0px;
+    padding:0;
 }
 
 ul.nav {
-	font-size: 13px;
+	font-size: 14px;
 }
 
 .jumbotron h1{
@@ -37,17 +44,21 @@ ul.nav {
 }
 
 .homepage {
-	padding-top: 30px;
 	text-align: center;
 	padding-bottom: 30px;
 }
 
+.homepage img{
+    max-width: 500px;
+}
+
 .homepage h2, .homepage h3{
-	color:#e74c3c;
+    font-family: 'Arvo', courier, sans-serif;
+    color:#e74c3c;
 	text-transform: uppercase;
 }
 
-.homepahe h2{
+.homepage h2{
 	font-size: 30px;
 }
 .homepage h3{
@@ -80,20 +91,19 @@ ul.nav {
 }
 
 #get-involved {
-	background-color: #f5f5f5;
+	background-color: #f1eeec;
 }
 
 #get-involved h2, h3{
-	font-family: 'Arvo', courier, serif;
+	font-family: 'Arvo', courier, sans-serif;
 }
 
 footer{
 	background-color: #e74c3c;
 	font-family: 'Arvo', serif;
 	color: white;
-	padding-top: 40px;
- 	padding-bottom: 20px;
-  padding-left: 30px;
+ 	height: 80px;
+    padding-left: 30px;
 }
 
 #who-we-are{
@@ -101,7 +111,11 @@ footer{
 }
 
 #who-we-are h2{
-	font-family: 'Arvo', courier, serif;
+	font-family: 'Arvo', courier, sans-serif;
+}
+
+#who-we-are #me-desc{
+    padding: 0 150px 0 150px;
 }
 
 #go-to-top-btn a{
@@ -116,12 +130,213 @@ footer{
 	border-color: #e74c3c;
 }
 
+#forms{
+  padding-top: 50px;
+  padding-left: 100px;
+  margin-top: 50px;
+}
+#forms p{
+  	font-family: 'Arvo', courier, sans-serif;
+    font-size: x-large;
+    padding-bottom: 10px;
+}
+
+#forms .input-group{
+    padding-bottom: 10px;
+}
+
+#forms .btn-default{
+  color: black;
+  font-family: 'Arvo', courier, sans-serif;
+  margin-top: 10px;
+  margin-bottom: 110px;
+}
+
+#quadcopterinfo h3{
+  padding-top: 5px;
+}
+
+#cudroneinfo h3{
+  padding-top: 13px;
+}
+
+#cudroneinfo p, #quadcopterinfo p{
+  padding-top: 29px;
+}
+
+#colormatchinfo a{
+  margin-top: 30px;
+}
+
+.contact{
+    font-family: 'Arvo', courier, sans-serif;
+    font-size: large;
+}
+
+.contact a{
+  text-decoration: none;
+}
+
+.contact a:hover{
+  opacity:0.5;
+}
+
+.contact #google{
+  color:#dd4b39;
+}
+
+.contact #github{
+  color:#000000;
+}
+
+.contact #linkedin{
+  color: #007bb5;
+}
+
+#logos{
+    padding-left:180px;
+}
+
+#links{
+    padding-top: 30px;
+    margin-left:-70px;
+}
+
+#formAlert{
+    max-width: 1095px;
+    margin-left: 180px;
+    margin-top: 50px;
+    text-align: center;
+    font-family: 'Arvo', courier, sans-serif;
+}
+
+#glypcninputMessage, #glypcninputEmail, #glypcninputName{
+    margin-right: 110px;
+}
+#glypcnhuman{
+    margin-right: 0;
+}
+
+#contactme{
+    padding:0px 0 10px 0px;
+    background-color: #f5f5f5;
+    width:100%;
+}
+
+#alertContainer{
+    background-color: #f5f5f5;
+    width: 100%;
+    height:110px;
+}
+
+#successMessage{
+    padding-top: 250px;
+}
+
+#carousel1{
+    margin: 50px 50px 50px 50px;
+}
+
+.headers {
+    margin:0 0 50px 100px;
+    font-family: 'Arvo', courier, sans-serif;
+    font-size: -webkit-xxx-large;
+    font-weight: 900;
+}
+
+.sectionTitles{
+    font-family: 'Arvo', courier, sans-serif;
+    padding-left: 170px;
+    padding-top: 50px;
+}
+
+#projectline{
+    border-color: #706f70;
+	width: 160px;
+	margin-bottom: 30px;
+}
+
+#colormatchdemo{
+    margin-left: 120px;
+    max-width: 450px;
+    padding-top: 30px;
+}
+#fbvideo{
+    width: 600px;
+    margin-left: 50px;
+    /*
+    margin-top: -20px;
+    */
+}
+#colormatch hr, #quadcopter hr, #cudrone hr{
+    border-width: 1px;
+    border-color: #e74c3c;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom:0;
+    width: 440px;
+}
+
+#projectDuration{
+    margin-left: 40px;
+}
+
+.project_desc{
+    padding: 50px 50px 50px 50px;
+}
+.project_desc p{
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+#cudrone{
+    padding-bottom: 20px;
+}
+
+#mebackhome{
+    width: 480px;
+    border-radius: 10px;
+    margin-left: 50px;
+    position: relative;
+    top:20px;
+}
+
+#me-desc1{
+    padding-left: 110px;
+    padding-right: 60px;
+}
+
+#me-desc1 p{
+    font-family: 'Arvo', courier, sans-serif;
+    font-size: 20px;
+}
+
+.contactinfo{
+    padding-left: 180px;
+    padding-top: 30px;
+}
+
+.contactinfo a{
+    padding-left: 30px;
+    position: relative;
+    top: -15px;
+    left:20px;
+}
+
+#google, #github, #linkedin{
+    padding-bottom: 20px;
+}
+
+#courses li{
+    font-family: 'Arvo', courier, sans-serif;
+    font-size: 18px;
+}
 @media screen and (max-width: 991px) {
 
     footer img{
     	position: relative;
   		left: 0px;
-      bottom: 15px;
+        bottom: 15px;
     }
 
     #go-to-top-btn{
@@ -146,5 +361,19 @@ footer{
       bottom: 15px;
     }
 
+    .contactinfo{
+        padding-left: 180px;
+        padding-top: 30px;
+    }
 
+    .contactinfo a{
+        padding-left: 30px;
+        position: relative;
+        top: -15px;
+        left:20px;
+    }
+
+    #google, #github, #linkedin{
+        padding-bottom: 20px;
+    }
 }
