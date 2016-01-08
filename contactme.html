@@ -84,7 +84,6 @@
         </div>
     -->
 
-    <!--
     <div class="col-md-6">
         <div class="contactinfo">
             <div id="google">
@@ -104,29 +103,54 @@
             </div>
         </div>
     </div>
-    <div class="col-md-6">
-        <h1> Send me an ema
-    </div>
 </div>
 
--->
-    <div class="row" id="logos">
-        <div class="col-md-4">
-            <a class="contactlogo" href="https://plus.google.com/+ErickGabrielKadBayVargas94" target="_blank">
-                <i class="fa fa-google fa-3" style="
-                font-size: 200px;color:#dd4b39;"></i>&nbsp;&nbsp;
-            </a>
-        </div>
-        <div class="col-md-4">
-            <a class="contactlogo" href="https://github.com/erickadbay" target="_blank">
-                <i class="fa fa-github fa-6" style="font-size: 200px;color:#444444;"></i>
-            </a>
-        </div>
-        <div class="col-md-4">
-            <a class="contactlogo" href="https://www.linkedin.com/in/erickadbayvargas" target="_blank">
-                <i class="fa fa-linkedin-square fa-3" style="font-size: 200px;color: #007bb5;"></i>
-            </a>
-        </div>
+    <div class="col-md-6" style="padding-top: 30px;padding-right:40px;">
+        <form name="contactform" method="post" action="mailer.php" class="form-horizontal" role="form" id="contactform">
+          		<div class="form-group has-feedback" >
+          				<label for="inputName" class="col-lg-2 control-label">Name</label>
+          				<div class="col-lg-10">
+          						<input type="text" class="form-control" id="inputName" name="inputName" placeholder="Your Name" size="30" style="width: 80%;">
+
+                                <!--
+                                <span class="glyphicon glyphicon-ok form-control-feedback" style="margin-right:100px;"></span>
+                                -->
+          				</div>
+
+
+          		</div>
+
+          		<div class="form-group">
+          				<label for="inputEmail1" class="col-lg-2 control-label">Email</label>
+          				<div class="col-lg-10">
+          					<input type="text" class="form-control" id="inputEmail" name="inputEmail" placeholder="someone@example.com" size="50" style="width: 80%;" >
+          			    </div>
+          		</div>
+
+          		<div class="form-group">
+                        <label for="inputPassword1" class="col-lg-2 control-label">Message</label>
+          				<div class="col-lg-10">
+          					<textarea class="form-control" cols="10" rows="7" id="inputMessage" name="inputMessage" placeholder="Your message..." style="width: 80%;"></textarea>
+          				</div>
+          		</div>
+
+                <div class="form-group">
+                        <label for="captcha" class="col-lg-2 control-label" style="padding-top: 0;">Human? 2+3=? </label>
+          				<div class="col-lg-10">
+                            <div class="col-lg-3" style="padding-left:0;">
+              					<input type="text" id="human" class="form-control" size="10" name="captcha" value="" placeholder="Your answer">
+                            </div>
+                            <div class="col-lg-3"></div>
+                            <div class="col-lg-3" style="padding-left: 56px;">
+                                <button type="button" id="contactbtn" class="btn btn-default">Send Email &raquo;
+                  			    </button>
+                            </div>
+          				</div>
+          		</div>
+
+
+      </form>
+
     </div>
 
 </div><!--container -->
