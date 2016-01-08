@@ -331,6 +331,14 @@ footer{
     font-family: 'Arvo', courier, sans-serif;
     font-size: 18px;
 }
+
+.contactlogo a:hover{
+    opacity:0.7;
+}
+
+#logos{
+    padding:150px 0 0 210px;
+}
 @media screen and (max-width: 991px) {
 
     footer img{
