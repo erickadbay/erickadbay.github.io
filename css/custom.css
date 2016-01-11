@@ -341,8 +341,16 @@ footer{
 }
 
 #logos .col-md-4{
-    text-align: center;
     padding-bottom: 20px;
+    text-align:center;
+}
+
+#googlelogo{
+    padding-left: 250px;
+}
+
+#linkedinlogo{
+    padding-right:250px;
 }
 
 #timeline2 p{
@@ -388,6 +396,16 @@ footer{
         padding-left: 100px;
     }
     */
+    #logos .col-md-4{
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    #googlelogo{
+        padding-left: 0;
+    }
+    #linkedinlogo{
+        padding-right: 0;
+    }
 }
 
 @media screen and (max-width: 767px) {
@@ -444,6 +462,18 @@ footer{
 
     #colormatch, #quadcopter, #cudrone{
         padding-top: 0;
+    }
+
+    #logos .col-md-4{
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    #googlelogo{
+        padding-left: 0;
+    }
+    #linkedinlogo{
+        padding-right: 0;
     }
 
 
