@@ -292,14 +292,14 @@ footer{
 #mebackhome{
     width: 480px;
     border-radius: 10px;
-    margin-left: 50px;
+    margin-left: 100px;
     position: relative;
     top:20px;
 }
 
 #me-desc1{
-    padding-left: 110px;
-    padding-right: 60px;
+    padding-left: 0px;
+    padding-right: 140px;
 }
 
 #me-desc1 p{
@@ -364,6 +364,12 @@ footer{
     padding-top: 50px;
 }
 
+#whoamigrid{
+    margin-top:20px;
+    padding-bottom:20px;
+    padding-left: 50px;
+}
+
 @media screen and (max-width: 991px) {
     #googlelogo, #githublogo, #linkedinlogo{
         font-size: 130px;
@@ -401,10 +407,13 @@ footer{
         padding-bottom: 20px;
     }
     #googlelogo{
-        padding-left: 0;
+        padding-left: 10px;
     }
     #linkedinlogo{
         padding-right: 0;
+    }
+    #me-desc1{
+        padding-top:50px;
     }
 }
 
@@ -456,8 +465,8 @@ footer{
     }
 
     #colormatchdemo{
-        margin-left: 80px;
-        padding-top: 20px;
+        position: relative;
+        right: 40px;
     }
 
     #colormatch, #quadcopter, #cudrone{
@@ -470,11 +479,56 @@ footer{
     }
 
     #googlelogo{
-        padding-left: 0;
+        padding-left: 10px;
     }
     #linkedinlogo{
         padding-right: 0;
     }
+    #carletonlogo{
+        width:100%;
+    }
+    #who-we-are #me-desc{
+        padding: 0 40px 0 40px;
+    }
+    #get-involved .col-md-4{
+        padding-bottom: 20px;
+    }
+
+    #mebackhome{
+        width: 80%;
+        position: relative;
+        top:20px;
+        margin-left: 0;
+    }
+
+    #me-desc1{
+        padding:50px;
+    }
+
+    #me-desc1 p{
+        font-family: 'Arvo', courier, sans-serif;
+        font-size: 20px;
+    }
+
+    #whoamigrid{
+        margin-top:20px;
+        padding-bottom:20px;
+        padding-left: 0;
+    }
+
+    #whoamipic{
+        text-align: center;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .project_desc{
+        padding: 50px;
+    }
+
+    #fbvideo{
+        width:80%;
+    }
+
 
 
 }
