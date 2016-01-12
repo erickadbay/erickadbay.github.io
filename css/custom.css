@@ -258,8 +258,8 @@ footer{
     width: 65%;
 }
 #fbvideo{
-    width: 600px;
-    margin-left: 50px;
+    width: 80%;
+    margin-left: 70px;
     /*
     margin-top: -20px;
     */
@@ -415,6 +415,10 @@ footer{
     #me-desc1{
         padding-top:50px;
     }
+    #fbvideo {
+        width: 80%;
+        margin-left: 80px;
+    }
 }
 
 @media screen and (max-width: 767px) {
@@ -527,6 +531,12 @@ footer{
 
     #fbvideo{
         width:80%;
+        padding-top: 50px;
+        margin-left: 40px;
+    }
+
+    #carousel1{
+        margin: 0;
     }
 
 
