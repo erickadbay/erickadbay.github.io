@@ -229,7 +229,7 @@ footer{
     padding-top: 250px;
 }
 
-#carousel1{
+#carousel1, #carousel2{
     margin: 50px 50px 50px 50px;
 }
 
@@ -359,10 +359,16 @@ footer{
 #timeline3 p{
     padding-left: 60px;
 }
-
+/*
 #cudrone{
     padding-top: 50px;
 }
+*/
+
+#quadcopter_pics{
+    padding-top: 100px;
+}
+
 
 #whoamigrid{
     margin-top:20px;
@@ -418,6 +424,9 @@ footer{
     #fbvideo {
         width: 80%;
         margin-left: 80px;
+    }
+    #quadcopter_pics{
+        padding-top: 0;
     }
 }
 
@@ -535,10 +544,13 @@ footer{
         margin-left: 40px;
     }
 
-    #carousel1{
+    #carousel1, #carousel2{
         margin: 0;
     }
 
+    #quadcopter_pics{
+        padding-top: 0;
+    }
 
 
 }
