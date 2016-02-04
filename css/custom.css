@@ -1,3 +1,20 @@
+@font-face {
+    font-family: BrandonGrotesqueBlk;
+    src: url(../fonts/BrandonGrotesque-Black.ttf);
+}
+@font-face {
+    font-family: BrandonGrotesqueBold;
+    src: url(../fonts/BrandonGrotesque-Bold.ttf);
+}
+@font-face {
+    font-family: BrandonGrotesqueLight;
+    src: url(../fonts/BrandonGrotesque-Light.ttf);
+}
+@font-face {
+    font-family: BrandonGrotesqueMed;
+    src: url(../fonts/BrandonGrotesque-Medium.ttf);
+}
+
 /* Move down content because we have a fixed navbar that is 50px tall */
 html, body{
   height:100%;
@@ -10,11 +27,10 @@ body {
 }
 
 ul.nav, .jumbotron h1{
-	font-family: 'Arvo', courier, sans-serif;
+	font-family: 'BrandonGrotesqueLight', courier, sans-serif;
 }
 .jumbotron {
 	text-align: center;
-	/*background-image: url('../assets/meinspain_wtext2.jpg');*/
 	margin-bottom: 0px;
     padding:0;
 }
