@@ -205,6 +205,10 @@ footer{
   margin-top: 30px;
 }
 
+#contact_banner p, #who-we-are p, #colormatchinfo p, #cudroneinfo p, #quadcopterinfo p{
+    font-family: 'BrandonGrotesqueLight', courier, sans-serif;
+}
+
 .contact{
     font-family: 'Arvo', courier, sans-serif;
     font-size: large;
