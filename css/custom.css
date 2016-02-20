@@ -319,11 +319,7 @@ footer{
     width: 80%;
 }
 #fbvideo{
-    width: 80%;
-    margin-left: 70px;
-    /*
-    margin-top: -20px;
-    */
+    padding-top: 50px;
 }
 #colormatch hr, #prudentcal hr, #cudrone hr{
     border-width: 1px;
@@ -506,10 +502,7 @@ footer{
     #me-desc1{
         padding-top:50px;
     }
-    #fbvideo {
-        width: 80%;
-        margin-left: 80px;
-    }
+
     #right_pics{
         padding-top: 0;
         padding-right: 0;
