@@ -205,6 +205,14 @@ footer{
   margin-top: 30px;
 }
 
+#right_desc{
+    padding-left: 0px;
+    padding-top: 50px;
+    padding-right: 100px;
+}
+#myrole{
+    padding:0;
+}
 #contact_banner p, #who-we-are p, #colormatchinfo p, #cudroneinfo p, #quadcopterinfo p{
     font-family: 'BrandonGrotesqueLight', courier, sans-serif;
 }
@@ -270,10 +278,6 @@ footer{
     padding-top: 250px;
 }
 
-#carousel1, #carousel2{
-    margin: 50px 50px 50px 50px;
-}
-
 .headers {
     margin:0 0 50px 100px;
     font-family: 'Arvo', courier, sans-serif;
@@ -304,9 +308,15 @@ footer{
 }
 
 #colormatchdemo{
-    margin-left: 120px;
+    margin-left: 175px;
     padding-top: 70px;
     width: 65%;
+}
+
+#prudentdemo{
+    margin-left: 115px;
+    padding-top: 160px;
+    width: 80%;
 }
 #fbvideo{
     width: 80%;
@@ -315,7 +325,7 @@ footer{
     margin-top: -20px;
     */
 }
-#colormatch hr, #quadcopter hr, #cudrone hr{
+#colormatch hr, #prudentcal hr, #cudrone hr{
     border-width: 1px;
     border-color: #e74c3c;
     margin-left: 0;
@@ -411,14 +421,18 @@ footer{
 #timeline3 p{
     padding-left: 60px;
 }
+#timeline4 p{
+    padding-left: 40px;
+}
 /*
 #cudrone{
     padding-top: 50px;
 }
 */
 
-#quadcopter_pics{
+#right_pics{
     padding-top: 100px;
+    padding-right: 150px;
 }
 
 
@@ -446,8 +460,7 @@ footer{
         padding-top: 20px;
     }
     .sectionTitles{
-        font-family: 'Arvo', courier, sans-serif;
-        padding-left: 100px;
+        padding-left: 130px;
         padding-top: 50px;
     }
     .project_desc{
@@ -464,6 +477,22 @@ footer{
         padding-left: 100px;
     }
     */
+
+    #right_desc{
+        padding-left: 130px;
+        padding-right: 0;
+    }
+    #colormatchdemo{
+        margin-left: 0;
+    }
+
+    #colormatch_pics{
+        text-align: center;
+    }
+    #prudentdemo{
+        margin-left: 100px;
+        width:75%;
+    }
     #logos .col-md-4{
         text-align: center;
         padding-bottom: 20px;
@@ -481,8 +510,9 @@ footer{
         width: 80%;
         margin-left: 80px;
     }
-    #quadcopter_pics{
+    #right_pics{
         padding-top: 0;
+        padding-right: 0;
     }
 }
 
@@ -517,25 +547,24 @@ footer{
         padding-top: 20px;
     }
 
-    .sectionTitles{
-        font-family: 'Arvo', courier, sans-serif;
-        padding-left: 45px;
-    }
-
-    #colormatch hr,#quadcopter hr,#cudrone hr{
+    #colormatch hr,#prudentcal hr,#cudrone hr{
         width:95%;
     }
 
-    #timeline2 p{
-        padding-left: 0px;
-    }
-    #timeline3 p{
+    #timeline, #timeline3, #timeline3 p, #timeline4 p, #timeline4{
         padding-left: 0px;
     }
 
+    #prudent_pics{
+        padding:0;
+    }
+    #prudentdemo{
+        margin-left: 50px;
+        padding-top:50px;
+    }
     #colormatchdemo{
-        position: relative;
-        right: 40px;
+        padding-top: 20px;
+        margin-left: 0;
     }
 
     #colormatch, #quadcopter, #cudrone{
@@ -604,9 +633,13 @@ footer{
         margin: 0;
     }
 
-    #quadcopter_pics{
+    #right_pics{
         padding-top: 0;
+        padding-right: 0;
     }
 
+    #right_desc, .sectionTitles{
+        padding: 20px;
+    }
 
 }
