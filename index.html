@@ -58,19 +58,20 @@
       </nav>
 
     <div class="jumbotron">
-        <img src="assets/images/meinspain_wtext8.jpg" style="width:100%;">
+        <img src="assets/images/banner_me.jpg" style="width:100%;">
     </div>
 
     <div id="who-we-are">
-      <br><br>
       <div class="container homepage">
+        <!--
         <img src="assets/images/carleton_logo.png" title="carleton logo" alt="carleton logo" id="carletonlogo">
+        -->
         <h2>Who Am I</h2>
         <hr>
         <p id="me-desc">Front End Developer from Carleton University with a passion for
         writing elegant and efficient code that translates into cool UXs and UIs.
         </p>
-        <p style="margin-top:30px;"><a class="btn btn-default" href="whoami" role="button">Learn more! &raquo;</a></p>
+        <p style="margin-top:30px;"><a id="button_action" class="button" href="whoami" role="button">Learn more</a></p>
       </div>
     </div>
 
@@ -85,32 +86,46 @@
               <div id="colormatchinfo">
                 <img src="assets/images/color_matchlogo2.png">
                   <h3>ColorMatch for android</h3>
-                  <p style="font-weight=300;">Along with a team of students, we came together to build an Android game that was published on the Google Play Store on Summer, 2015.</p>
-
-                  <p><a class="btn btn-default" href="projects#colormatch" role="button">Learn more! &raquo;</a></p>
+                  <p style="font-weight=300;">Along with a team of students, we built an Android application that was published on the Google Play Store on May 2015.</p>
+                  <div id="project_buttons">
+                      <a id="button_project" class="button" href="projects#colormatch" role="button">Learn more</a>
+                  </div>
               </div>
             </div>
 
-            <div class="col-md-4">
-              <div id="quadcopterinfo">
-                <img src="assets/images/drone1.0 copy.png">
-                <h3>Quadcopter design</h3>
-                <p style="font-weight=300;">Teaming with the university's Robotics Club, we built a flying quadcopter from scratch that was exhibited at the Ottawa Maker Faire in Fall, 2015.</p>
-                <p><a class="btn btn-default" href="projects#quadcopter" role="button">Learn more! &raquo;</a></p>
-              </div>
-           </div>
            <div class="col-md-4">
               <div id="cudroneinfo">
                 <img src="assets/images/drone2.0 copy.png">
                 <h3 style="text-transform: capitalize;">CuDRONE</h3>
                 <p style="font-weight=300;">Funded by Carleton University, we plan to build a quadcopter capable of autonomous flying and collision avoidance.</p>
-                <p><a class="btn btn-default" href="projects#cudrone" role="button">Learn more! &raquo;</a></p>
+                <div id="project_buttons">
+                    <a id="button_project" class="button" href="projects#colormatch" role="button">Learn more</a>
+                </div>
               </div>
             </div>
+            <div class="col-md-4">
+              <div id="quadcopterinfo">
+                <img src="assets/images/rails_icon.png" style="max-width:100px; padding-bottom:10px;padding-top:15px;">
+                <h3>PrudentCal</h3>
+                <p style="font-weight=300;">Currently designing a Ruby on Rails application for professors and students to better scheduling their deadlines.</p>
+                <div id="project_buttons">
+                    <a id="button_project" class="button" href="projects#colormatch" role="button">Learn more</a>
+                </div>
+              </div>
+           </div>
 
           </div> <!-- /container -->
         </div>
-    <!--STUDENTS EDUCATORS AND SPONSORS -->
+    </div>
+    <div id="contact_banner">
+        <div class="container homepage">
+            <h2>GET IN TOUCH</h2>
+            <hr>
+            <p id="me-desc">Do you feel that I am a good match for your development team?</p>
+            <p>Let me know!</p>
+            <p style="margin-top:30px;"><a id="button_action" class="button" href="contact" role="button">Contact me</a></p>
+        </div>
+    </div>
 
 
     <!-- Bootstrap core JavaScript
@@ -121,4 +136,8 @@
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
   </body>
+  <footer>
+      <p> &copy; 2016 Erick Kad-Bay </p>
+  </footer>
+
 </html>
