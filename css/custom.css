@@ -442,6 +442,23 @@ footer{
     text-decoration: none;
 }
 
+a.back-to-top {
+    color:#f5f5f5;
+	display: none;
+	width: 60px;
+	height: 60px;
+	position: fixed;
+	z-index: 999;
+	right: 20px;
+	bottom: 20px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+}
+.back-to-top i {
+  font-size: 60px;
+}
+
 @media screen and (max-width: 991px) {
     #googlelogo, #githublogo, #linkedinlogo{
         font-size: 130px;
