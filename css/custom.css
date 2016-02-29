@@ -445,18 +445,18 @@ footer{
 a.back-to-top {
     color:#f5f5f5;
 	display: none;
-	width: 60px;
-	height: 60px;
+	width: 50px;
+	height: 50px;
 	position: fixed;
 	z-index: 999;
-	right: 20px;
-	bottom: 20px;
+	right: 50px;
+	bottom: 30px;
 	-webkit-border-radius: 30px;
 	-moz-border-radius: 30px;
 	border-radius: 30px;
 }
 .back-to-top i {
-  font-size: 60px;
+  font-size: 50px;
 }
 
 @media screen and (max-width: 991px) {

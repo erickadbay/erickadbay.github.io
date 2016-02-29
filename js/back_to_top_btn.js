@@ -1,7 +1,7 @@
 // create the back to top button
-$('footer').prepend('<a href="#" class="back-to-top"><i class="fa fa-arrow-circle-up fa-3"></i></a>');
+$('footer').prepend('<a href="#" class="back-to-top"><i class="fa fa-arrow-up fa-3"></i></a>');
 
-var amountScrolled = 300;
+var amountScrolled = 400;
 
 $(window).scroll(function() {
     if ( $(window).scrollTop() > amountScrolled ) {
