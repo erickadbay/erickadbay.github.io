@@ -173,7 +173,6 @@ footer{
   margin-top: 50px;
 }
 #forms p{
-  	font-family: 'Arvo', courier, sans-serif;
     font-size: x-large;
     padding-bottom: 10px;
 }
@@ -218,7 +217,6 @@ footer{
 }
 
 .contact{
-    font-family: 'Arvo', courier, sans-serif;
     font-size: large;
 }
 
@@ -252,7 +250,6 @@ footer{
     margin-left: 180px;
     margin-top: 50px;
     text-align: center;
-    font-family: 'Arvo', courier, sans-serif;
 }
 
 #glypcninputMessage, #glypcninputEmail, #glypcninputName{
@@ -263,7 +260,7 @@ footer{
 }
 
 #contactme{
-    padding:0px 0 146px 0px;
+    padding:0px 0 50px 0px;
     background-color: #f5f5f5;
     width:100%;
 }
@@ -280,7 +277,6 @@ footer{
 
 .headers {
     margin:0 0 50px 100px;
-    font-family: 'Arvo', courier, sans-serif;
     font-size: -webkit-xxx-large;
     font-weight: 900;
 }
@@ -593,11 +589,10 @@ footer{
     }
 
     #me-desc1{
-        padding:50px;
+        padding: 50px 50px 0 50px;
     }
 
     #me-desc1 p{
-        font-family: 'Arvo', courier, sans-serif;
         font-size: 20px;
     }
 
