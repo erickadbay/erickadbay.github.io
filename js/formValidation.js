@@ -1,5 +1,4 @@
 function checkForm(id){
-
     if($("#"+id).val()==null || $("#"+id).val()==""){
         validationFalse(id);
         return false;
@@ -7,11 +6,9 @@ function checkForm(id){
         validationTrue(id);
         return true;
     }
-
 }
 
 function checkHuman(id){
-
     if($("#"+id).val()==null || $("#"+id).val()=="" ||$("#"+id).val()!=5){
         validationFalse(id);
         return false;
@@ -19,7 +16,6 @@ function checkHuman(id){
         validationTrue(id);
         return true;
     }
-
 }
 
 
