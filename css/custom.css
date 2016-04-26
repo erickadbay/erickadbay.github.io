@@ -197,7 +197,7 @@ footer{
 }
 
 #cudroneinfo p, #quadcopterinfo p{
-  padding-top: 29px;
+  padding-top: 15px;
 }
 
 #colormatchinfo a{
@@ -294,7 +294,7 @@ footer{
     font-family: 'BrandonGrotesqueMed', courier, sans-serif;
 }
 
-#carousel1 h3, #carousel2 h3{
+#carousel1 h3, #carousel2 h3,  #carousel3 h3{
     font-family: 'BrandonGrotesqueMed', Helvetica, sans-serif;
 }
 #projectline{
@@ -317,7 +317,7 @@ footer{
 #fbvideo{
     padding-top: 50px;
 }
-#colormatch hr, #prudentcal hr, #cudrone hr{
+#colormatch hr, #prudentcal hr, #cudrone hr, #decode2016 hr{
     border-width: 1px;
     border-color: #e74c3c;
     margin-left: 0;
@@ -421,10 +421,15 @@ footer{
     padding-top: 50px;
 }
 */
-
 #right_pics{
     padding-top: 100px;
+}
+#right_pics2{
+    padding-top: 250px;
+}
+#right_pics, #right_pics2{
     padding-right: 150px;
+    padding-bottom: 30px;
 }
 
 
@@ -499,8 +504,9 @@ footer{
         padding-top:50px;
     }
 
-    #right_pics{
+    #right_pics, #right_pics2{
         padding-top: 0;
+        padding-left: 0;
         padding-right: 0;
     }
 }
@@ -617,12 +623,13 @@ footer{
         margin-left: 40px;
     }
 
-    #carousel1, #carousel2{
+    #carousel1, #carousel2, #carousel3{
         margin: 0;
     }
 
-    #right_pics{
+    #right_pics,#right_pics2 {
         padding-top: 0;
+        padding-left: 0;
         padding-right: 0;
     }
 
