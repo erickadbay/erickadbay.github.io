@@ -20,7 +20,7 @@ html, body{
   height:100%;
   background-color: #f5f5f5;
   width:100%;
-  font-family: 'BrandonGrotesqueLight', courier, sans-serif;
+  font-family: 'BrandonGrotesqueLight', "Helvetica Neue", courier, sans-serif;
 }
 
 .row{
@@ -32,7 +32,7 @@ body {
 }
 
 ul.nav, .jumbotron h1{
-	font-family: 'BrandonGrotesqueLight', courier, sans-serif;
+	font-family: 'BrandonGrotesqueLight', "Helvetica Neue", courier, sans-serif;
 }
 .jumbotron {
 	text-align: center;
