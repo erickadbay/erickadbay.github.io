@@ -32,7 +32,7 @@ body {
 }
 
 ul.nav, .jumbotron h1{
-	font-family: 'BrandonGrotesqueLight', "Helvetica Neue", courier, sans-serif;
+
 }
 .jumbotron {
 	text-align: center;
@@ -71,9 +71,6 @@ ul.nav {
 
 .homepage img{
     max-width: 500px;
-}
-.homepage p{
-    font-family: 'BrandonGrotesqueMed', Helvetica, sans-serif;
 }
 .homepage h2, .homepage h3{
     font-family: 'BrandonGrotesqueBold', courier, sans-serif;
@@ -196,7 +193,7 @@ footer{
   padding-top: 13px;
 }
 
-#cudroneinfo p, #quadcopterinfo p{
+#colormatchinfo p, #cudroneinfo p, #quadcopterinfo p{
   padding-top: 15px;
 }
 
@@ -212,7 +209,7 @@ footer{
 #myrole{
     padding:0;
 }
-#contact_banner p, #who-we-are p, #colormatchinfo p, #cudroneinfo p, #quadcopterinfo p{
+#contact_banner p, #who-we-are p, #colormatchinfo p, #cudroneinfo p, #quadcopterinfo p, {
     font-family: 'BrandonGrotesqueLight', courier, sans-serif;
 }
 
@@ -635,6 +632,12 @@ footer{
 
     #right_desc, .sectionTitles{
         padding: 20px;
+    }
+    #cudroneinfo ,#quadcopterinfo{
+        padding-top: 50px;
+    }
+    #colormatchinfo p, #cudroneinfo p, #quadcopterinfo p{
+      padding: 15px 7px;
     }
 
 }
