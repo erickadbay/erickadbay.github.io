@@ -138,6 +138,7 @@ footer{
     padding: 50px 0;
     font-size: 18px;
     width: 100%;
+    position: absolute;
     bottom: 0;
 }
 
@@ -429,7 +430,6 @@ footer{
     padding-right: 150px;
     padding-bottom: 30px;
 }
-
 
 #whoamigrid{
     margin-top:20px;
